@@ -1,13 +1,13 @@
 xllify.ExcelFunction({
     name = "xllify.Demo.Hello",
-    description = "Says hello!",
+    description = "Says hello politely!",
     category = "xllify Starter",
     parameters = {
-        {name="name", description="Name to greet"},
+        {name="name", description="Being to greet"},
     },
 }, function(name: string)
     name = name or "World"
-    return "Hello there, " .. name .. "!"
+    return "Good tidings, friendly " .. name .. "!"
 end)
 
 xllify.ExcelFunction({
